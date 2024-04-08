@@ -1,0 +1,1 @@
+﻿using Newtonsoft.Json;namespace ProcessImageEvents.Models{    public class StorageDiagnostics    {        [JsonProperty("batchId")]        public string BatchId { get; set; }    }}
