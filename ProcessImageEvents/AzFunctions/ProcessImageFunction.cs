@@ -65,6 +65,7 @@ namespace ProcessImageEvents.AzFunctions
 
             logger.LogInformation("---------------------Testing GitHub Actions Deploy----------------------------------");
             logger.LogInformation("---------------------Test - 1 ----------------------------------");
+            logger.LogInformation("---------------------Test - 2 ----------------------------------");
 
         }
     }
