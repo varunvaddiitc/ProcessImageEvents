@@ -64,6 +64,7 @@ namespace ProcessImageEvents.AzFunctions
             logger.LogInformation("Message Published..........!");
 
             logger.LogInformation("---------------------Testing GitHub Actions Deploy----------------------------------");
+            logger.LogInformation("---------------------Test - 1 ----------------------------------");
 
         }
     }
