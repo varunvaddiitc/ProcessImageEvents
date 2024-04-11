@@ -5,7 +5,9 @@
 name: Deploy DotNet project to Azure Function App
 
 on:
-  [push]
+  push:
+    branches:
+      - master
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'vv00imgeventhandler'   # set this to your function app name on Azure
